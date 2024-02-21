@@ -1,0 +1,26 @@
+<main>
+  <header style="background-color: #068ed0" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <div class="d-flex align-items-center justify-content-center px-3">
+      <img src="assets\logo_alphacode.png" width=100px height=100px alt="AlphaCode Logo">
+      <h2 class="text-white">Cadastro de Contatos</h2>
+    </div>
+
+    <div class="col-md-3 text-end">
+      <button 
+        type="button" 
+        class="btn btn-outline-light me-2"
+        [routerLink]="'/crud/contact-form'"
+      >
+        Criar Contatos
+      </button>
+      <button 
+        type="button" 
+        class="btn btn-outline-light me-2"
+        [routerLink]="'/crud/contact-list'"
+      >
+        Lista de Contatos
+      </button>
+    </div>
+  </header>
+  <router-outlet></router-outlet>
+</main>
