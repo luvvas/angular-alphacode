@@ -1,58 +1,60 @@
 <main>
   <form>
-    <div class="px-5">
-      <div class="form-row d-flex">
-        <div class="col py-2">
-          <label for="">Nome Completo</label>
-          <input type="text" class="form-control" placeholder="Ex.: Lucas Machado">
+    <div class="px-5 w-100">
+      <div class="d-flex">
+        <div class="col-md-6 py-2 mx-2">
+          <label class="custom-label" for="">Nome Completo</label>
+          <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: Lucas Machado">
         </div>
-        <div class="col py-2">
-          <label for="">Data de nascimento</label>
-          <input type="text" class="form-control" placeholder="Ex.: 16/12/1999">
+        <div class="col-md-6 py-2 mx-2">
+          <label class="custom-label" for="">Data de nascimento</label>
+          <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: 16/12/1999">
         </div>
       </div>
-      <div class="form-row d-flex">
-          <div class="col py-2">
-            <label for="">E-mail</label>
-            <input type="text" class="form-control" placeholder="Ex.: lmachado72@outlook.com">
+      <div class="d-flex">
+          <div class="col-md-6 py-2 mx-2">
+            <label class="custom-label" for="">E-mail</label>
+            <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: lmachado72@outlook.com">
           </div>
-          <div class="col py-2">
-            <label for="">Profissão</label>
-            <input type="text" class="form-control" placeholder="Ex.: Desenvolvedor Full-stack">
-          </div>
-      </div>
-      <div class="form-row d-flex">
-          <div class="col py-2">
-            <label for="">Telefone para contato</label>
-            <input type="text" class="form-control" placeholder="Ex.: (41) 99808-3462">
-          </div>
-          <div class="col py-2">
-            <label for="">Celular para contato</label>
-            <input type="text" class="form-control" placeholder="Ex.: (41) 99808-3462">
+          <div class="col-md-6 py-2 mx-2">
+            <label class="custom-label" for="">Profissão</label>
+            <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: Desenvolvedor Full-stack">
           </div>
       </div>
       <div class="d-flex">
-        <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Número de celular possui Whatsapp
-          </label>
+          <div class="col-md-6 py-2 mx-2">
+            <label class="custom-label" for="">Telefone para contato</label>
+            <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: (41) 99808-3462">
+          </div>
+          <div class="col-md-6 py-2 mx-2">
+            <label class="custom-label" for="">Celular para contato</label>
+            <input style="border: none; border-radius: 0%; border-bottom: 2px solid gray;" type="text" class="form-control shadow-none" placeholder="Ex.: (41) 99808-3462">
+          </div>
+      </div>
+      <div>
+        <div class="d-flex">
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Número de celular possui Whatsapp
+            </label>
+          </div>
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Enviar notificações por SMS
+            </label>
+          </div>
         </div>
         <div class="form-check col">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
-            Enviar notificações por SMS
+            Enviar notificações por E-mail
           </label>
         </div>
-      </div>
-      <div class="form-check col">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-          Enviar notificações por E-mail
-        </label>
-      </div>
-      <div class="py-5 d-flex flex-column align-items-end">
-        <button type="submit" class="btn text-white" style="background-color: #068ed0">Cadastrar Contato</button>
+        <div class="py-5 d-flex flex-column align-items-end">
+          <button type="submit" class="btn text-white" style="background-color: #068ed0">Cadastrar Contato</button>
+        </div>
       </div>
     </div>
     </form>
